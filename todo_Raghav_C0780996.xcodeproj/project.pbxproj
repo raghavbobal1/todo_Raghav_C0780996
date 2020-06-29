@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6D73CE24AA6DD800277BB2 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D73CD24AA6DD800277BB2 /* TodoItem.swift */; };
 		BDE5648124A9AF24002BDF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5648024A9AF24002BDF4B /* AppDelegate.swift */; };
 		BDE5648324A9AF24002BDF4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5648224A9AF24002BDF4B /* SceneDelegate.swift */; };
 		BDE5648524A9AF24002BDF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5648424A9AF24002BDF4B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD6D73CD24AA6DD800277BB2 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		BDE5647D24A9AF24002BDF4B /* todo_Raghav_C0780996.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_Raghav_C0780996.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE5648024A9AF24002BDF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE5648224A9AF24002BDF4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BDE5648E24A9AF2D002BDF4B /* LaunchScreen.storyboard */,
 				BDE5649124A9AF2D002BDF4B /* Info.plist */,
 				BDE5648924A9AF24002BDF4B /* todo_Raghav_C0780996.xcdatamodeld */,
+				BD6D73CD24AA6DD800277BB2 /* TodoItem.swift */,
 			);
 			path = todo_Raghav_C0780996;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D73CE24AA6DD800277BB2 /* TodoItem.swift in Sources */,
 				BDE5648B24A9AF24002BDF4B /* todo_Raghav_C0780996.xcdatamodeld in Sources */,
 				BDE5648524A9AF24002BDF4B /* ViewController.swift in Sources */,
 				BDE5648124A9AF24002BDF4B /* AppDelegate.swift in Sources */,
