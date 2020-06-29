@@ -105,11 +105,11 @@
 				BDE5648024A9AF24002BDF4B /* AppDelegate.swift */,
 				BDE5648224A9AF24002BDF4B /* SceneDelegate.swift */,
 				BD6D73D124AA6E8500277BB2 /* Storyboards */,
-				BDE5649124A9AF2D002BDF4B /* Info.plist */,
 				BD6D73D324AA6EBB00277BB2 /* HelperClasses */,
 				BD6D73D224AA6EA500277BB2 /* ViewControllers */,
 				BD6D73D424AA6ED000277BB2 /* DataModel */,
 				BDE5648C24A9AF2D002BDF4B /* Assets.xcassets */,
+				BDE5649124A9AF2D002BDF4B /* Info.plist */,
 			);
 			path = todo_Raghav_C0780996;
 			sourceTree = "<group>";
