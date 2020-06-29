@@ -10,6 +10,7 @@
 		BD6D73CE24AA6DD800277BB2 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D73CD24AA6DD800277BB2 /* TodoItem.swift */; };
 		BD6D73D024AA6E3E00277BB2 /* MoveToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D73CF24AA6E3E00277BB2 /* MoveToDoViewController.swift */; };
 		BD6D73D624AA819800277BB2 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D73D524AA819800277BB2 /* TaskListViewController.swift */; };
+		BD6D73D824AA822700277BB2 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D73D724AA822700277BB2 /* TodoViewController.swift */; };
 		BDE5648124A9AF24002BDF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5648024A9AF24002BDF4B /* AppDelegate.swift */; };
 		BDE5648324A9AF24002BDF4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5648224A9AF24002BDF4B /* SceneDelegate.swift */; };
 		BDE5648524A9AF24002BDF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5648424A9AF24002BDF4B /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		BD6D73CD24AA6DD800277BB2 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		BD6D73CF24AA6E3E00277BB2 /* MoveToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToDoViewController.swift; sourceTree = "<group>"; };
 		BD6D73D524AA819800277BB2 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		BD6D73D724AA822700277BB2 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		BDE5647D24A9AF24002BDF4B /* todo_Raghav_C0780996.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_Raghav_C0780996.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE5648024A9AF24002BDF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE5648224A9AF24002BDF4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				BD6D73CF24AA6E3E00277BB2 /* MoveToDoViewController.swift */,
 				BD6D73D524AA819800277BB2 /* TaskListViewController.swift */,
 				BDE5648424A9AF24002BDF4B /* ViewController.swift */,
+				BD6D73D724AA822700277BB2 /* TodoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D73D824AA822700277BB2 /* TodoViewController.swift in Sources */,
 				BD6D73D624AA819800277BB2 /* TaskListViewController.swift in Sources */,
 				BD6D73CE24AA6DD800277BB2 /* TodoItem.swift in Sources */,
 				BDE5648B24A9AF24002BDF4B /* todo_Raghav_C0780996.xcdatamodeld in Sources */,
