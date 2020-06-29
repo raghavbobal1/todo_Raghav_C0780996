@@ -8,15 +8,22 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
+        // Override point for customization after application launch.
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+            if granted {
+                print("Permission granted")
+            }
+        }
         UINavigationBar.appearance().tintColor = UIColor(displayP3Red: 0.916, green: 0.992, blue: 0.208, alpha: 1.0)
         UINavigationBar.appearance().backgroundColor = UIColor.black
+        
         return true
     }
 
@@ -43,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "todo_Raghav_C0780996")
+        let container = NSPersistentContainer(name: "TaskData")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
