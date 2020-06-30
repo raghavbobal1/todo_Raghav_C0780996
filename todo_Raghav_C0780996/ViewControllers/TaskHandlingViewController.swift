@@ -22,6 +22,7 @@ class TaskHandlingViewController: UIViewController
     {
         
         super.viewDidLoad()
+        
         //Gesture to dismiss keyboard
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tap)

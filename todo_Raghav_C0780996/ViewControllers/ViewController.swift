@@ -164,9 +164,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let category = categoryArray[indexPath.row]
         if category.name == "Archived"
         {
-            cell.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
-            cell.textLabel?.textColor =  UIColor(displayP3Red: 0.916, green: 0.992, blue: 0.208, alpha: 1.0)
-            //cell.textLabel?.textAlignment = .center
+            cell.backgroundColor = #colorLiteral(red: 0.9301375221, green: 0.9626031091, blue: 0.08144220854, alpha: 1)
+            cell.textLabel?.textColor =  UIColor.black
+
         }
         cell.textLabel?.text = category.name
         return cell
@@ -185,7 +185,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 completion(true)
         }
         
-        delete.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        delete.backgroundColor = #colorLiteral(red: 0.521568656, green: 0.1098039225, blue: 0.05098039284, alpha: 1)
         delete.image = UIImage(systemName: "trash.fill")
         return UISwipeActionsConfiguration(actions: [delete])
     }
@@ -193,6 +193,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "noteListScreen", sender: self)
     }
+    
 }
 
 extension ViewController {
