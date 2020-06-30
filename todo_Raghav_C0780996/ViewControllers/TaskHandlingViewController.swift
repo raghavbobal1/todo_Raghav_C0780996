@@ -9,7 +9,6 @@
 import UIKit
 import CoreData
 
-
 class TaskHandlingViewController: UIViewController
 {
     @IBOutlet weak var todoTitleLabel: UITextField!

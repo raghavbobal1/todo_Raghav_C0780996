@@ -15,14 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
+        UINavigationBar.appearance().tintColor = UIColor(displayP3Red: 0.916, green: 0.992, blue: 0.208, alpha: 1.0)
+        UINavigationBar.appearance().backgroundColor = UIColor.black
+        UINavigationBar.appearance().isOpaque = true
+        UINavigationBarAppearance().backgroundColor = UIColor.black
+        
         // Override point for customization after application launch.
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
             if granted {
                 print("Permission granted")
             }
         }
-        UINavigationBar.appearance().tintColor = UIColor(displayP3Red: 0.916, green: 0.992, blue: 0.208, alpha: 1.0)
-        UINavigationBar.appearance().backgroundColor = UIColor.black
         
         return true
     }
