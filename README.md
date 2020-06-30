@@ -29,4 +29,10 @@ Create a native application for iPhone or iPad (or Universal) that allows the us
 - Already added tasks can be edited by clicking on the cell
 - Data persistence is achieved through CoreData
 
-## References 
+## References
+* [App Icon](https://appicon.co/) - To generate app icon
+* [Data Persistence](https://www.iosapptemplates.com/blog/ios-development/data-persistence-ios-swift#:~:text=Data%20persistence%20is%20the%20mechanism,data%20locally%20in%20iOS%20apps.) - Helped with data persistence
+* [Nav Bar](https://stackoverflow.com/questions/31944833/changing-the-color-of-navigation-bar-in-swift) - Helped with colour changes in nav ber
+* [Core Data](https://www.youtube.com/watch?v=2idtKQ_NqTs&list=PL23Revp-82LImHA8jL2dLaN_67pABFcyJ) - Helped with core data
+
+
