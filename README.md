@@ -1,8 +1,10 @@
 # todo_Raghav_C0780996
 # Final Asignment
 </br>
+
 ## Made By-
 ### Raghav Bobal
+
 </br>
 
 
@@ -27,4 +29,4 @@ Create a native application for iPhone or iPad (or Universal) that allows the us
 - Already added tasks can be edited by clicking on the cell
 - Data persistence is achieved through CoreData
 
-## Refreences 
+## References 
