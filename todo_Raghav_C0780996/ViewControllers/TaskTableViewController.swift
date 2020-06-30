@@ -201,7 +201,7 @@ extension TaskTableViewController: UITableViewDelegate, UITableViewDataSource {
 
         if (Calendar.current.isDateInToday(task.due_date!) && task.parentFolder?.name != "Archived")
         {
-            cell.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
+            cell.backgroundColor = #colorLiteral(red: 0.9301375221, green: 0.9626031091, blue: 0.08144220854, alpha: 1)
         }
         return cell
     }
